@@ -18,14 +18,14 @@
 }
 
 # Open WebUI
-{$WEBUI_HOSTNAME} {
-    reverse_proxy localhost:3000
-}
+#{$WEBUI_HOSTNAME} {
+#    reverse_proxy localhost:3000
+#}
 
 # Flowise
-{$FLOWISE_HOSTNAME} {
-    reverse_proxy localhost:3001
-}
+#{$FLOWISE_HOSTNAME} {
+#    reverse_proxy localhost:3001
+#}
 
 # Langfuse
 # {$LANGFUSE_HOSTNAME} {
@@ -33,9 +33,9 @@
 # }
 
 # Ollama API
-{$OLLAMA_HOSTNAME} {
-    reverse_proxy localhost:11434
-}
+#{$OLLAMA_HOSTNAME} {
+#    reverse_proxy localhost:11434
+#}
 
 # Supabase
 {$SUPABASE_HOSTNAME} {
